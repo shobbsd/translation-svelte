@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  const url = "https://translation-api-shobbs.herokuapp.com/";
+  const url = "https://translation-api-shobbs.herokuapp.com/api/translate";
   let languages = [];
 
   console.log(url);
