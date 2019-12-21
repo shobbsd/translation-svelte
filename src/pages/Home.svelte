@@ -1,8 +1,9 @@
 <script>
   import { onMount } from "svelte";
-  const url = "https://104.199.88.2/api/translate";
+  const url = "https://translation-api-shobbs.herokuapp.com/";
   let languages = [];
 
+  console.log(url);
   const getLanguages = async () => {
     try {
       const res = await fetch(url);
