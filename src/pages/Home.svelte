@@ -1,8 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  const url =
-    "http://localhost:3000/api/translate" ||
-    "http://104.199.88.2/api/translate";
+  const url = "http://104.199.88.2/api/translate";
   let languages = [];
 
   const getLanguages = async () => {
